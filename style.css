@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "league-spartan";
+  src: url("./League_Spartan/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "league-spartan";
+  font-size: 24px;
+}
+
+body {
+  background-color: #F8FAE5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 650px;
+}
+.container h1 {
+  margin-top: 64px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.container form {
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media screen and (max-width: 768px) {
+  .container form {
+    flex-direction: column;
+  }
+}
+.container form input {
+  width: 100%;
+  height: 36px;
+  border-color: white;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(218, 218, 218, 0.534);
+  padding: 20px 16px;
+}
+.container form a {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #43766C;
+  color: white;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .container form a {
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+  }
+}
+.container form a:hover {
+  cursor: pointer;
+}
+.container .task-container {
+  position: relative;
+  color: rgba(255, 255, 255, 0.863);
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .task-container a img {
+  width: 24px;
+  height: 24px;
+}
+.container .task-container a img:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
